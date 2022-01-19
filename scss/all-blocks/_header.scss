@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-link__img{
+    width: 236px;
+    height: 26px;
+}
+
+
+.hamburber-button{
+    display: none;
+    position: relative;
+    top: 6px;
+    background-image: url("../images/open.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #fff;
+}
+
+@media only screen and (max-width:590px){
+    .site-header{
+        position: relative;
+        padding-top: 32px;
+    }
+    .header-link__img{
+        width: 163px;
+        height: 18px;
+    }
+    .hamburber-button{
+        position: relative;
+        right:1px;
+        display: inline-block;
+    }
+}

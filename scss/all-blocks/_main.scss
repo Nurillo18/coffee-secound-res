@@ -1,0 +1,330 @@
+// ===ABOUT US SECTION=====
+
+.about-us-section{
+    background-image: url("../images/about-us-img.png");
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+    border-radius: 8px;
+    padding: 164px 85px;
+}
+
+.about-us-section__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.tel{
+    text-decoration: none;
+    color: dimgray;
+}
+
+.tel:hover{
+    color: black;
+}
+.mistake{
+    width: 516px;
+    padding-bottom: 53px;
+}
+
+.about-us-section__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+
+    padding-top: 24px;
+}
+
+//    =====OUR COMMITMENT=====
+
+.our-commitment{
+    display: flex;
+    margin-top: 168px;
+    margin-left: 85px;
+}
+
+.our-commitment__img{
+    border-radius: 8px;
+    width: 445px;
+    height: 520px;
+}
+
+.our-commitment__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-top: 100px;
+}
+
+.our-commitment__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-top: 32px;
+}
+
+.our-commitment__box{
+    margin-left: 125px;
+}
+
+//   ====Uncompromising quality====
+
+.uncompromising-quality{
+    position: relative;
+    background-image: url("../images/backgtround-img-in~commitment.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 474px;
+    margin-top: 260px;
+}
+
+.uncompromising-quality__img{
+    position: absolute;
+    right:60px;
+    bottom: 82px;
+    border-radius: 8px;
+}
+
+.uncompromising-quality__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding-top: 100px;
+    padding-left: 85px;
+}
+
+.uncompromising-quality__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+    padding-top: 32px;
+    padding-left: 85px;
+}
+
+// ====Our headquarters====
+
+.our-headquarters__country{
+    display: flex;
+    justify-content: space-between;
+    width: 1045px;
+    padding-bottom: 168px;
+}
+
+.our-headquarters__head{
+    margin-top: 168px;
+    margin-left: 85px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.our-headquarters__united-kingdom{
+    margin-left: 85px;
+}
+
+.our-headquarters__united-kingdom-img{
+    margin-top: 72px;
+}
+
+.our-headquarters__united-kingdom-haed{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 45px;
+}
+
+.our-headquarters__united-kingdom-desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 126px;
+    padding-top: 24px;
+}
+
+.canda-desc{
+    width: 164px;
+}
+
+.australia-desc{
+    width: 164px;
+}
+
+@media only screen and (max-width:900px){
+    .about-us-section{
+        position: relative;
+        background-image: url("../images/tablet-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:870px){
+    .about-us-section{
+        background-position: left -70px center;
+        top: 41px;
+    }
+}
+
+@media only screen and (max-width:690px){
+    .about-us-section__head{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .mistake{
+        width: 398px;
+    }
+
+    .about-us-section__desc{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:766px){
+    .about-us-section{
+        background-position: left -188px center;
+    }
+}
+
+@media only screen and (max-width:645px){
+    .about-us-section{
+        background-position: left -297px center;
+    }
+}
+
+@media only screen and (max-width:550px){
+
+
+    .about-us__headline{
+        padding: 0 24px;
+        width: 398px;
+        text-align: center;
+    }
+
+    .about-us-section__head{
+        width: 74%;
+    }
+
+    .about-us-section__desc{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:538px){
+    .about-us-section{
+        padding: 111px 24px;
+        background-position: left -364px center;
+    }
+
+}
+
+@media only screen and (max-width:452px){
+    .about-us-section__head{
+        width: 79%;
+    }
+
+    .about-us-section__desc{
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width:381px){
+    .about-us-section__head{
+        width: 57%;
+    }
+
+    .about-us-section__desc{
+        width: 49%;
+    }
+}
+
+
+@media only screen and (max-width:327px){
+    .about-us-section{
+        background-position: left -527px center;
+    }
+}
+
+@media only screen and (max-width:290px){
+    .about-us-section{
+        background-position: left -805px center;
+        padding: 111px 45px;
+        vertical-align: middle;
+    }
+
+    .about-us-section__head{
+        width: 38%;
+    }
+
+    .about-us-section__desc{
+        width: 34%;
+    }
+}
+
+
+@media only screen and (max-width:260px){
+    .about-us-section{
+        padding: 111px 45px;
+        vertical-align: middle;
+    }
+
+    .about-us-section__head{
+        width: 27%;
+    }
+
+    .about-us-section__desc{
+        width: 22%;
+    }
+}
