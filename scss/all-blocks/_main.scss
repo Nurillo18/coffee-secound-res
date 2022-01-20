@@ -219,13 +219,13 @@
         line-height: 40px;
     }
 
-    .mistake{
-        width: 398px;
-    }
-
     .about-us-section__desc{
         font-size: 15px;
         line-height: 25px;
+    }
+
+    .mistake{
+        width: 355px;
     }
 }
 
@@ -249,44 +249,48 @@
 
     .about-us__headline{
         padding: 0 24px;
-        width: 398px;
         text-align: center;
     }
 
     .about-us-section__head{
-        width: 74%;
+        width: 91%;
     }
 
     .about-us-section__desc{
-        width: 70%;
+        width: 80%;
     }
 }
 
 @media only screen and (max-width:538px){
     .about-us-section{
         padding: 111px 24px;
-        background-position: left -364px center;
+        background-position: left -346px center;
     }
 
 }
 
 @media only screen and (max-width:452px){
     .about-us-section__head{
-        width: 79%;
+        width: 97%;
     }
 
     .about-us-section__desc{
-        width: 66%;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .mistake{
+        width: 250px;
     }
 }
 
 @media only screen and (max-width:381px){
     .about-us-section__head{
-        width: 57%;
+        width: 100%;
     }
 
     .about-us-section__desc{
-        width: 49%;
+        width: 75%;
     }
 }
 
