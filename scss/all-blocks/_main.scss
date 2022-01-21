@@ -291,13 +291,13 @@
     }
 
     .uncompromising-quality__head{
-        margin-left: 158px;
+        margin-left: 81px;
         margin-top: -16px;
         font-size: 36px;
     }
 
     .uncompromising-quality__desc{
-        margin-left: 50px;
+        margin-left: 101px;
         // width: 613px;
         font-size: 16px;
     }
@@ -342,7 +342,7 @@
 
 @media only screen and (max-width:830px){
     .uncompromising-quality__box{
-        margin-left: -63px;
+        margin-left: 14px;
     }
 
     .uncompromising-quality__img{
@@ -427,6 +427,18 @@
     }
 }
 
+@media only screen and (max-width:678px){
+    .uncompromising-quality__box{
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width:657px){
+    .uncompromising-quality__desc{
+        margin-left: -30px;
+    }
+}
+
 @media only screen and (max-width:645px){
     .about-us-section{
         background-position: left -365px center;
@@ -494,7 +506,7 @@
     .our-commitment__img{
         // width: 445px;
         width: 100%;
-        margin-left: -46px;
+        margin-left: -46    px;
     }
 
     .our-commitment__box{
