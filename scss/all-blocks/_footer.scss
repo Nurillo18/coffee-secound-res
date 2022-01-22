@@ -1,12 +1,12 @@
 .footer{
     display: flex;
     align-items: center;
+    padding: 47px 85px 49px 85px;
     background-image: url("../images/footer-bac-img.png");
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 1198px;
-    margin-left: 91px;
-    height: 120px;
+    width: 100%;
+
 }
 .footer__img{
     width: 236px;
@@ -56,4 +56,151 @@
 }
 .social-network__link + .social-network__link{
   margin-left: 24px;
+}
+
+
+@media only screen and (max-width:1320px){
+    .footer{
+        padding: 47px 82px 49px 85px;
+        max-width: 1280px;
+    }
+}
+
+@media only screen and (max-width:1317px){
+    .social-network{
+        padding-left: 116px;
+    }
+}
+
+@media only screen and (max-width:1221px){
+
+    .footer-sitenav{
+        margin-left: -39px;
+    }
+}
+
+@media only screen and (max-width:1110px){
+        .social-network{
+            padding-left: 66px;
+        }
+}
+
+@media only screen and (max-width:1060px){
+    .social-network{
+        padding-left: 66px;
+    }
+
+    .footer-sitenav{
+        margin-left: -59px;
+    }
+}
+
+@media only screen and (max-width:1034px){
+    .social-network{
+        padding-left: 23px;
+    }
+}
+
+@media only screen and (max-width:994px){
+    .social-network{
+        margin-left: -7px;
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    .social-network{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .social-network{
+        width: 100%;
+        text-align: center;
+        padding-left: 35px;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 67px 33px 32px;
+    }
+
+    .footer-sitenav{
+        padding-top: 33px;
+    }
+
+    .footer{
+        background-image: none;
+        background: #2C343E;
+        width: 100%;
+        height: 270px;
+    }
+    .social-network{
+        padding-top: 39px;
+    }
+}
+
+@media only screen and (max-width:775px){
+    .our-headquarters__united-kingdom{
+        margin-left: 26px;
+    }
+}
+
+@media only screen and (max-width:570px){
+    .our-headquarters{
+        margin-top: -43px;
+    }
+
+    .our-headquarters__head{
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .our-headquarters__united-kingdom{
+        text-align: center;
+    }
+
+    .our-headquarters__united-kingdom-haed{
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .our-headquarters__united-kingdom-desc{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .our-headquarters__country{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:460px){
+    .footer-sitenav__list{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 61px;
+
+    }
+    .firs{
+        margin-left: 32px;
+    }
+
+    .footer-sitenav__item{
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+    }
+    .footer-sitenav__item + .footer-sitenav__item{
+        padding-top: 24px;
+    }
 }

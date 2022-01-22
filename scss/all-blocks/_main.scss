@@ -259,6 +259,10 @@
         font-size: 14px;
         width: 470px;
     }
+
+    .our-headquarters__country{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:1046px){
@@ -498,6 +502,7 @@
     }
 
     .our-commitment__desc{
+        padding: 30px 31px 20px 24px;
         width: 140%;
         position: relative;
         left: -120px;
@@ -713,7 +718,7 @@
     .uncompromising-quality__img{
         width: 279px;
         height: 156px;
-        margin-left: -96px;
+        margin-left: -85px;
     }
 }
 
